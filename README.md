@@ -20,7 +20,6 @@
 </head>
 <body>
     <h1>Car Price Prediction Project Overview</h1>
-
     <h2>1. Data Collection:</h2>
     <p>
         The first step in the project is to collect data using web scraping techniques. The data is gathered from the website 
@@ -28,7 +27,6 @@
         to automate the browsing process and extract the necessary information about cars, such as their features, specifications, 
         and prices.
     </p>
-
     <h2>2. Data Preprocessing:</h2>
     <p>
         Once the data is collected, it undergoes preprocessing to prepare it for modeling. This involves several key steps:
@@ -47,7 +45,6 @@
             improve the performance of some machine learning algorithms.
         </li>
     </ul>
-
     <h2>3. Modeling:</h2>
     <p>
         After preprocessing, various machine learning models are employed to predict car prices. The models used in this project include:
@@ -66,7 +63,6 @@
             that best divides the data into different classes. For regression, SVM tries to fit the best line within a threshold margin while minimizing the prediction error.
         </li>
     </ul>
-
     <h2>4. Evaluation:</h2>
     <p>
         The performance of each model is evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R²) to assess their accuracy and effectiveness 
