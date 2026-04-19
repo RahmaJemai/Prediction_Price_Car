@@ -77,14 +77,13 @@ for link in link_car_data:
         data[link[0]] = cleaned_data
 
 
-#transfrom to dataframe
 data_list = []
 for car, details in data.items():
     car_details = dict(details)
-    car_details['Car'] = car  # Ajouter le nom de la voiture comme une clé
+    car_details['Car'] = car  
     data_list.append(car_details)
 
-# Créer le DataFrame
+
 df = pd.DataFrame(data_list)
 
 # Réorganiser les colonnes pour que 'Car' soit la première colonne
